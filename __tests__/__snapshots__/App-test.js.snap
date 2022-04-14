@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "black",
+        "fontSize": 20,
+      }
+    }
+  >
+    18
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 20,
+        }
+      }
+    >
+      Home 
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      placeholder="Enter UserName"
+      style={
+        Object {
+          "backgroundColor": "grey",
+          "marginTop": 20,
+          "padding": 10,
+        }
+      }
+      testID="userName"
+    />
+  </View>
+</View>
+`;
